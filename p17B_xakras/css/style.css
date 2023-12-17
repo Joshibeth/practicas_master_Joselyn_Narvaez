@@ -1,0 +1,117 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+svg {
+width: 100%;
+}
+
+.container {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.woman {
+    position: relative;
+    width: 50%;
+}
+    
+
+
+.chakra--purple svg {
+    position: absolute;
+    width: 4%;
+    top: 24%;
+    left: 48%;
+    
+    
+}
+
+.chakra svg {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 50%;
+}
+
+
+.chakra svg:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 6px rgba(233, 223, 237, 0.7);
+    border-radius: 50%;
+
+}
+
+
+
+.chakra--indigo {
+    position: absolute;
+    width: 4%;
+    top: 29%;
+    left: 48%;
+
+}
+
+.chakra--blue {
+    position: absolute;
+    width: 4%;
+    top:36%;
+    left:48%   
+
+}
+
+.chakra--green {
+    position: absolute;
+    width:4%;
+    top:44%;
+    left:48%
+   
+
+}
+
+.chakra--yellow {
+    position: absolute;
+    width:4%;
+    top:49%;
+    left:48%
+
+}
+
+.chakra--orange {
+    position: absolute;
+    width:4%;
+    top:55%;
+    left:48%
+
+}
+
+.chakra--red {
+    position: absolute;
+    width:4%;
+    top:63%;
+    left:48%
+
+}
+
+
+@keyframes rotateWoman {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+.aura {
+    transform-origin: center;
+    
+         
+}
+
+.aura:hover {
+    animation: 6s linear rotateWoman infinite;
+    
+}
+
+
+
+
+

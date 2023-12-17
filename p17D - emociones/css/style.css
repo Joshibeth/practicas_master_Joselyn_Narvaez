@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #a5bae7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+width: 100%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.aside {
+    padding: 0 20px;
+}
+
+ul {
+    list-style:none;
+    margin: 15px;
+}
+
+
+.header {
+    padding: 20px;
+}
+
+
+.header__in {
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 8px;
+
+}
+
+
+.emotions {
+    display: flex;
+}
+
+.emotions__list ul, .emotions__message p {
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.emotions__list li {
+    border-bottom: 1px solid rgb(88, 179, 179);
+    text-align: center;
+
+}
+
+
+.emotions__list button {
+    padding: 10px;
+    position: relative;
+    top: 1px;
+
+}
+
+
+.emotions__message {
+    width: 100%;
+    margin-top: 15px;
+   
+}
+
+.emotions__message p {
+    padding: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.random-button {
+    position: fixed;
+    width: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    right: 15px;
+    bottom: 15px;
+}
+
+.random-button img {
+    position: relative;
+    top: 2px;
+    left: 1px;
+    width: 100%;
+    
+}

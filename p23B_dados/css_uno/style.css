@@ -1,0 +1,36 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.dado {
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dado__shape {
+    height: 300px;
+    flex-basis: 300px; 
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.dado__number {
+    display: flex;
+    align-self: center;
+    width: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: black;
+
+    
+
+}

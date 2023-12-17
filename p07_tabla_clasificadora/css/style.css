@@ -1,0 +1,49 @@
+table, tr, td {
+    border: 1px solid white;
+    border-collapse: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+td {
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+
+    
+
+}
+
+
+.row__title {
+    background-color: blue;
+    color: white;
+
+}
+
+.row__2 {
+    background-color: #8f8fff;
+}
+
+.row__3 {
+    background-color: #afafff;
+}
+
+.row__4 {
+    background-color: #cfcfff;
+}
+
+.row__5 {
+    background-color: #efefff ;
+}
+
+.cell4 {
+    width: 200px;
+}
+
+.cell2, .cell3, .cell5 {
+
+    width: 150px;
+
+}

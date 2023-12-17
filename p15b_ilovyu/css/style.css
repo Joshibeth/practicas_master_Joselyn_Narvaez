@@ -1,0 +1,246 @@
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+
+.container {
+    width: 600px;
+    height: 900px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    position: relative;
+    background: linear-gradient(90deg, #df4259 0%, #df4259 16.66%, #dd5868 16.66%, #dd5868 33.33%, #c76a6b 33.33%, #c76a6b 50%, #c8967a 50%, #c8967a 66.67%, #d0b785 66.67%, #d0b785 83.33%, #eee195 83.33%, #eee195 100%);
+    z-index: 0;
+    
+}
+
+
+.container__header {
+    background-color: #faf6ea;
+    width: 95%;
+    height: 14%;
+    top:1%;
+    border-radius:20px;
+    margin-left: 3%;
+    align-content: center;
+    position: relative;
+    
+}
+
+.container__header-title {
+    display: flex;
+}
+
+
+.container__arrows {
+    margin-left: 15px;
+}
+
+.arrow1, .arrow2, .arrow3, .arrow4, .arrow5, .arrow6 {
+    width: 3.2%;
+    height: 12%;
+
+}
+
+div svg {
+    width: 3.5%;
+    display: inline-flex;
+    margin: 10px -10px 0px 0px;
+    
+}
+
+.header__title-top {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 2.1em;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #cc863c;
+
+}
+
+.header__title-bottom {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin-left: 15px;
+    display: inline-flex;
+    color: #da4560; 
+
+}
+
+.comillas__left {
+    width: 2.5%; 
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
+.comillas__right {
+    width: 2.5%; 
+    margin-left: 15px;
+
+}
+
+.heart__title {
+    width: 5%;
+    margin-left:5px;
+
+}
+
+
+.header__title-right {
+
+    display: flex;
+    color: #cc863c;
+    font-family:'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1.20em;
+    margin-left: 290px;
+    top: 10%;
+    position: absolute;
+
+}
+
+.section__first {
+    margin-top: 4%;
+}
+
+.section__first, .section__second,.section__third, .section__fourth, .section__fifth  {
+
+    background-color: #fcf8f3;
+    border: 4px solid #adccd4;
+    border-radius:20px;
+    margin-left: 3%;
+    width: 95%;
+    height: 16%;
+    position: relative;
+    z-index: 1;
+}
+
+.section__first::before, .section__second::before, .section__third::before, .section__fourth::before, .section__fifth::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: -4px;
+    border-radius: 20px;
+    outline: 4px dashed #1999c5;
+    z-index: -1;
+
+}
+
+section p {
+
+    justify-content: space-between;
+    display: inline-flex;
+    padding-top: 10px;
+
+}
+
+section p:first-child {
+    padding-left: 15px;
+    max-width: 20%;
+}
+
+section p:not(:first-child) {
+    margin-left: 25px;
+    max-width: 22%;
+}
+
+section p:last-child {
+    max-width: 20%;
+    padding-right: 5px;
+}
+
+
+section.section__first p:nth-child(odd), section.section__second p:nth-child(even), section.section__third p:nth-child(odd), section.section__fourth p:nth-child(even), section.section__fifth p:nth-child(odd) {
+    font-family:'Work Sans', sans-serif;
+    color: #2c9cc4;
+    font-weight: bold;
+    font-size: 0.65em;
+
+}
+
+section.section__first p:nth-child(even), section.section__second p:nth-child(odd), section.section__third p:nth-child(even), section.section__fourth p:nth-child(odd), section.section__fifth p:nth-child(even) {
+    font-family:'Work Sans', sans-serif;
+    color: #dd247e;
+    font-weight: bold;
+    font-size: 0.65em;
+    
+}
+
+.hearts__section-first {
+    position: absolute;
+    top: 25%;
+    width:270%;
+    z-index: 2;
+    left:15%;
+
+}
+
+.hearts__section-first svg:nth-child(2), .hearts__section-second svg:nth-child(2), .hearts__section-third svg:nth-child(2), .hearts__section-fourth svg:nth-child(2), .hearts__section-fifth svg:nth-child(2)  {
+    position: relative;
+    top: 15px;
+    right: 20px;
+    z-index: 1;
+
+}
+
+.hearts__section-second {
+    position: absolute;
+    top: 61%;
+    width:250%;
+    transform: rotate(15deg);
+    transform-origin: center;
+    left: 64%;
+    z-index: 2;
+
+}
+
+.hearts__section-third {
+    position: absolute;
+    top: 32%;
+    width:270%;
+    left: 7%;
+    transform: rotate(-15deg);
+    transform-origin: center;
+    z-index: 2;
+
+}
+
+.hearts__section-fourth {
+    position: absolute;
+    top: 64%;
+    width:240%;
+    left: 42%;
+    transform: rotate(-5deg);
+    transform-origin: center;
+    z-index: 2;
+
+}
+
+.hearts__section-fifth {
+
+    position: absolute;
+    top: 111%;
+    width:250%;
+    left: 62%;
+    transform: rotate(15deg);
+    transform-origin: center;
+    z-index: 2;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

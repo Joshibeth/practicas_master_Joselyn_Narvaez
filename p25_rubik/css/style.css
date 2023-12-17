@@ -1,0 +1,93 @@
+
+
+* {
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 1800px;
+    perspective-origin: 50% -50%;
+    background: radial-gradient(circle,rgb(141, 136, 136) 10%, rgb(255, 255, 255)100%);
+
+}
+
+.cube {
+    perspective: 2000px;
+    height: 200px;
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: rotateY(50deg);    
+    
+
+}
+
+.cube__side {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    border: 2px solid black;
+    gap: 6px;
+    grid-template-columns: repeat(3, 10fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #000;
+    transform-style: preserve-3d;
+  
+}
+
+
+.cube__side--1 {
+
+    transform: rotateX(90deg) rotateY(0deg) translateZ(99px) translateY(0px) translateX(3px);
+    border: 5px solid black;
+    
+}
+
+
+.cube__side--2 {
+
+    transform: translateZ(99px) translateX(5px) translateY(1px);
+
+}
+
+.cube__side--3 {
+
+    transform: rotateY(-89deg) rotateX(0deg) translateX(-1px) translateZ(99px);
+
+}
+
+.inner_square {
+
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.inner_square:hover {
+    background-color: antiquewhite;
+}
+
+.inner_square-1 {
+    background-color: rgb(0, 255, 8);
+  
+}
+
+.inner_square-2 {
+
+    background-color: blueviolet;
+ 
+
+
+}
+
+.inner_square-3 {
+
+    background-color: pink;
+  
+}
+

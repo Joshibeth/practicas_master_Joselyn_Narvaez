@@ -1,0 +1,49 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    background: black;
+}
+
+.photo {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('hm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+}
+
+.mask {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 30%;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+

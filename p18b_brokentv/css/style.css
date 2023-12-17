@@ -1,0 +1,157 @@
+* {
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.tv {
+padding: 50px;
+border: 3px solid purple;
+display: inline-flex;
+flex-direction: column;
+width: 100%;
+max-width: 800px;
+border-radius: 50px;
+background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgb(46, 46, 45, 0)4%, rgb(46, 46, 45, 0),rgb(46, 46, 45, 0), rgb(46, 46, 45, 0), rgba(255, 255, 255, 0.287)122%);
+position: relative;
+
+}
+
+
+.tv__screen {
+    border: 4px solid purple;
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.tv__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+.tv__buttons {
+
+    margin-top: 20px;
+}
+
+.tv__button-item {
+    padding: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.tv__buttons-8 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 5px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.tv__buttons {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.tv__buttons-on-off {
+    color: white;
+}
+
+.tv__btn-on {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(84, 0, 84);
+}
+
+.tv__btn-sint {
+    width: 60px;
+    height: 10px;
+}
+
+
+
+.tv__leg {
+    position: absolute;
+    display: inline;
+    width: 100px;
+    height: 30px;
+    background-color: purple;
+    bottom: -30px;
+}
+
+.tv__leg--1 {
+    left: 10%;
+}
+
+.tv__leg--2 {
+    right: 10%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.turn-off {
+    opacity: 0;
+
+}
+
+
+.tv__screen::before {
+    content: '';
+    position: absolute;
+    top: -200%;
+    left: -200%;
+    right: -200%;
+    bottom: -200%;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9));
+    animation: flicker 0.3s infinite alternate;
+}
+
+.tv__screen.sin-animacion::before {
+
+    animation: none;
+    background:none;
+
+}
+
+@keyframes flicker {
+    to {
+        opacity: 0.3; /* Ajusta la opacidad según sea necesario */
+    }
+}
+
+.tv__button-item:hover, .tv__btn-sint:hover {
+    animation: glow 0.5s;
+    border: 1px solid;
+    border-color: rgb(143, 0, 179); 
+
+
+}
+
+
+@keyframes glow {
+    to {
+        box-shadow:inset 0 0 5px 5px rgba(140, 63, 164, 0.8);
+    }
+}
+

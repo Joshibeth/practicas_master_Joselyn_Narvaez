@@ -1,0 +1,171 @@
+* {
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+body {
+
+    background-color:white;
+    font-family: 'Oswald', sans-serif;  
+}
+
+header, footer {
+    background-color: rgb(85, 0, 90);
+    text-align: center;
+    color: white;
+    padding: 20px 0 10px 0;
+    width: 100vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display:inline-block;
+    margin: 20px 70px 0 90px;
+  
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.destacado {
+
+    font-weight:700;
+    
+
+}
+
+
+.general__container {
+    display: flex;
+    max-height: fit-content;
+    width: 100vw;
+       
+}
+
+
+.left__container {
+
+    max-width: 20vw;
+    padding: 40px 40px 40px 30px;
+    margin: 10px 20px 10px 0;
+    background-color: rgb(234, 186, 238);  
+
+}
+
+.left__container p {
+    text-align: left;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+
+.right__container {
+    
+    padding: 20px 0px 0px 40px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(234, 186, 238);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+.title__container {
+
+    padding-left: 20px;
+    padding: 10px;
+    max-width: 55%;
+
+}
+
+h2 {
+    color: rgb(255, 0, 217);
+    text-align: left;
+    font-size:min(5vw,60px);
+    
+}
+
+.title__container p {
+
+    margin-top: 30px;
+ 
+}
+
+.title__container .subtitle {
+    font-weight: bold;
+}
+
+p, figcaption {
+
+    font-size: min(5vw, 16px);
+
+}
+
+
+.figures__container {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+    max-width: 55%;  
+
+}
+
+
+.figure__container--1, .figure__container--2 {
+
+    flex: 1;
+    max-width:100%;
+
+}
+
+
+.figure__container--1 p, .figure__container--2 p {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+img {
+    max-width:55%;
+    height: auto;
+     
+}
+
+
+figcaption {
+    font-weight: bold;
+}
+
+
+footer {
+
+    display: block;
+    margin-top: auto;
+    height: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
